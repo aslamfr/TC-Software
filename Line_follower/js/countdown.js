@@ -42,7 +42,7 @@ function start() {
             pause()
         }
 		//display popup count up in...
-		if (seconds == 183) {
+		if (seconds == 185) {
 				modal.style.display = "block";
         popup()
 				span.onclick = function() {
@@ -55,7 +55,7 @@ function start() {
 				}
       }
     //audio beep
-    if (seconds == 182){
+    if (seconds == 183){
       countdownAudio.play();
       }
     },10)
