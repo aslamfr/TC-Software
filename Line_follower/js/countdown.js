@@ -41,23 +41,23 @@ function start() {
             clearInterval(timer)
             pause()
         }
-		//display popup count up in...
-		if (seconds == 185) {
-				modal.style.display = "block";
-        popup()
-				span.onclick = function() {
-					modal.style.display = "none";
-				}
-				window.onclick = function(event) {
-					if (event.target == modal) {
-					modal.style.display = "none";
-					}
-				}
-      }
-    //audio beep
-    if (seconds == 183){
-      countdownAudio.play();
-      }
+	//display popup count up in...
+	if (seconds == 185) {
+		modal.style.display = "block";
+			popup()
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+		window.onclick = function(event) {
+			if (event.target == modal) {
+			modal.style.display = "none";
+			}
+		}
+      	}
+    	//audio beep
+    	if (seconds == 183){
+      		countdownAudio.play();
+     	}
     },10)
 }
 
