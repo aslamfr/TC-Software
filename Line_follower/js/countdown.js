@@ -42,7 +42,7 @@ function start() {
             pause()
         }
 		//display popup count up in...
-		if (seconds == 185) {
+		if (seconds == 184) {
 				modal.style.display = "block";
         popup()
 				span.onclick = function() {
