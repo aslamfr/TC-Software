@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporter</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Transporter</h1>
+    </div>
+    <input type="text" class="nama-tim">
+    
+    <section class="countdown">
+        <div class="wrapper">
+            <h1 id="display"> 4:00.00</h1>
+            <div class="cd-buttons">
+                <button onclick="start()"> Start </button>
+                <button onclick="stop()"> Stop </button>
+                <button onclick="cancel()"> Reset </button>
+            </div>
+        </div>
+    </section>
+    <script src="./countdown.js"></script>
+
+    <div class="counter">
+        <div class="wrapper" id="counter1">
+            <div id="count" class="count"> 0 </div>
+            <div class="ct-buttons">
+                <button id="minus" class="ct-btn sml btn1"> - </button>
+                <button id="reset" class="ct-btn reset btn1"> Reset </button>
+                <button id="plus" class="ct-btn sml btn1"> + </button>
+            </div>
+        </div>
+    
+        <div class="wrapper" id="counter2">
+            <div id="count2" class="count"> 0 </div>
+            <div class="ct-buttons">
+                <button id="minus2" class="ct-btn sml btn2"> - </button>
+                <button id="reset2" class="ct-btn reset btn2"> Reset </button>
+                <button id="plus2" class="ct-btn sml btn2"> + </button>
+            </div>
+            
+        </div>
+        
+        <div class="wrapper" id="counter3">
+            <div id="count3" class="count"> 0 </div>
+            <div class="ct-buttons">    
+                <button id="minus3" class="ct-btn sml btn3"> - </button>
+                <button id="reset3" class="ct-btn reset btn3"> Reset </button>
+                <button id="plus3" class="ct-btn sml btn3"> + </button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./js/counter.js"></script>
+    <script src="./js/countdown.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+
+<body>
+
+<!-- Tombol buka popup (untuk debugging) -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal countdown 3-2-1 -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1 id="tigadetik">Count up in...</h1>
+  </div>
+
+</div>
+
+
+    <div class="title">
+        <h1>Line Follower</h1>
+    </div>
+    <input type="text" class="nama-tim">
+
+    <section class="countdown">
+        <div class="wrapper">
+            <h1 id="display"> 4:00.00</h1>
+            <div class="cd-buttons">
+                <button onclick="start()"> Start </button>
+                <button onclick="stop()"> Stop </button>
+                <button onclick="cancel()"> Reset </button>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <form name="form_main">
+                <div class="countup">
+                    <span id="minute">00</span><span>:</span>
+                    <span id="second">00</span><span>.</span>
+                    <span id="millisecond">00</span>
+                </div>
+                
+                <div class="cd-buttons">
+                    <button name="start" type="button"> Start </button>
+                    <button name="pause" type="button"> Stop </button>
+                    <button name="reset" type="button"> Reset </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/countdown.js"></script>
+    <script src="js/countup.js"></script>
+
+    <div class="counter">
+        <div class="wrapper" id="counter1">
+            <h1>Checkpoint</h1>
+            <div id="count" class="count"> 0 </div>
+            <div class="ct-buttons">
+                <button id="minus" class="btn1"> - </button>
+                <button id="reset" class="btn1"> Reset </button>
+                <button id="plus" class="btn1"> + </button>
+            </div>
+        </div>
+    
+        <div class="wrapper" id="counter2">
+            <h1>Points</h1>
+            <div id="count2" class="count"> 0 </div>
+            <div class="ct-buttons">
+                <button id="minus2" class="btn2"> - </button>
+                <button id="reset2" class="btn2"> Reset </button>
+                <button id="plus2" class="btn2"> + </button>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    <script src="./js/counter.js"></script>
+    <script src="./js/countdown.js"></script>
+</body>
+</html>

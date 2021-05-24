@@ -1,0 +1,162 @@
+@font-face{
+	font-family: Corp Games;
+	src: url("../fonts/corporation-games/Corporation\ Games.otf");
+}
+
+@font-face{
+	font-family: Gotham-Medium;
+	src: url("../fonts/gotham-cufonfonts/GothamMedium.ttf");
+}
+
+@font-face{
+	font-family: Gotham-Black;
+	src: url("../fonts/gotham-cufonfonts/Gotham-Black.otf");
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background: #04102d;
+    align-items: center;
+}
+/* Title */
+.title h1 {
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin: 25px auto;
+    color: #fbfffe;
+    font-family: Corp Games;
+}
+
+/* Nama Tim */
+.nama-tim{
+    height: 35px;
+    margin: 25px;
+    margin-top: 0;
+    width: auto;
+    background-color: rgb(117, 146, 209);
+    border: none;
+    font-family: Gotham-Medium;
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    border-radius: 15px;
+    padding: 5px;
+}
+/* Countdown */
+.countdown{
+    display: flex;
+}
+
+.countdown .wrapper {
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid white;
+    width: 75vw; 
+    border-radius: 10px;  
+    background: #fbfffe;     
+}
+
+.countdown h1{
+    font-size: 96px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Gotham-Black;
+}
+
+.cd-buttons button{
+    width: 200px;
+    border:none;
+    padding: 1rem;
+    margin: 0 20px 0 20px;
+    font-size: 2rem;
+    font-family: Gotham-Medium;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ff7700;
+    color: #fbfffe;
+}
+
+.cd-buttons button:hover {
+    background: #00b2ca;
+    transition-duration: 0.5s;
+}
+.cd-buttons button:active {
+    box-shadow: 0 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+.cd-buttons button:last-child {
+    margin-right: 0;
+}
+
+/* Counter */
+
+
+
+.counter{
+    display: flex;
+    justify-content: center;
+}
+
+.counter .wrapper {
+    margin: 1.7vw;
+    border: 2px solid white;
+    width: 23vw; 
+    height: fit-content;
+    border-radius: 10px;       
+}
+.ct-buttons {
+    background: white;
+}
+
+#counter1, .btn1 {
+    background: green;
+}
+
+#counter2, .btn2{
+    background: blue;
+}
+
+#counter3, .btn3{
+    background: red;
+}
+
+.count {
+    font-family: Gotham-Black;
+    font-size: 60px;
+    color: #fbfffe;
+    padding: 1.7rem 1.7rem;
+}
+
+#minus , #minus2 , #minus3{
+    font-size: 2rem;
+}
+
+
+.ct-btn{
+    border:none;
+    margin: 5px;
+    height: 60px;
+    font-size: 35px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    font-family: Gotham-Medium;   
+    font-size: 2.1rem; 
+    color: #fbfffe;
+}
+
+.sml {
+    width: 60px;
+}
+
+.reset {
+    padding: 0 15px 0 15px;
+}
+.ct-buttons button:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
