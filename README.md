@@ -1,4 +1,4 @@
-A fix of:
+A continuation of:
 <br> https://evanjat2.github.io/TC-Software/Line_follower/
 <br> https://evanjat2.github.io/TC-Software/Transporter/
 
